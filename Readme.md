@@ -4,7 +4,7 @@ Helper variables to normalize vendor prefixed style names.
 
 ## Installation
 
-```shell
+```sh
 $ component install mkitt/probe
 ```
 
