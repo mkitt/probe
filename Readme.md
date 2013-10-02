@@ -4,7 +4,7 @@ Helper variables to normalize vendor prefixed style names.
 
 ## Installation
 
-```sh
+```bash
 $ component install mkitt/probe
 ```
 
@@ -15,7 +15,7 @@ $ component install mkitt/probe
 Returns the correct `transitionend` string used by the browser, if not
 found returns `false`.
 
-```js
+```javascript
 if (probe.transitionend) {
   el.addEventListener(probe.transitionend, fn, false)
 }
@@ -25,7 +25,7 @@ if (probe.transitionend) {
 Returns the correct `animationend` string used by the browser, if not
 found returns `false`.
 
-```js
+```javascript
 if (probe.animationend) {
   el.addEventListener(probe.animationend, fn, false)
 }
