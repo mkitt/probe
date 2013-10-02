@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Probe</title>
+    <meta content='Mode Set' name='author'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <link rel="stylesheet" href="../node_modules/mocha/mocha.css" />
+    <style type="text/css" media="screen">
+      #messages {
+        margin: 60px 50px;
+        font: 20px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+      #messages h2 {
+        font-size: 1em;
+        font-weight: 200;
+      }
+      #messages li {
+        font-weight: 200;
+        font-size: 0.8em;
+        color: #daa520;
+      }
+      .hidden { display: none; }
+    </style>
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <div id="fixture"></div>
+    <div id="messages" class="hidden"><h2>messages</h2><ol></ol></div>
+    <script src="../node_modules/expect.js/expect.js"></script>
+    <script src="../node_modules/sinon/pkg/sinon.js"></script>
+    <script src="../node_modules/mocha/mocha.js"></script>
+    <script>mocha.setup('bdd')</script>
+    <script src="../index.js"></script>
+    <script src="test.js"></script>
+    <script>
+      mocha.checkLeaks();
+      mocha.run();
+    </script>
+  </body>
+</html>
+

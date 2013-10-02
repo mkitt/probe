@@ -1,0 +1,9 @@
+{
+  "name": "probe",
+  "version": "0.0.1",
+  "devDependencies": {
+    "mocha": "*",
+    "sinon": "*",
+    "expect.js": "*"
+  }
+}
