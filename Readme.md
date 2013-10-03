@@ -1,5 +1,5 @@
 # probe
-Helper variables to normalize vendor prefixed style names.
+Static variables to normalize vendor prefixed style names.
 
 
 ## Installation

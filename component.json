@@ -1,7 +1,7 @@
 {
   "name": "probe",
   "repo": "mkitt/probe",
-  "description": "Helper variables to normalize vendor prefixed style names.",
+  "description": "Static variables to normalize vendor prefixed style names.",
   "version": "0.0.1",
   "keywords": ["transition", "animation"],
   "dependencies": {},
